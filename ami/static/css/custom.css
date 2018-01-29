@@ -1,6 +1,16 @@
 body {
     background: #282828
 }
+.itim {
+    font-family: 'Itim', cursive;
+}
+.pridi {
+    font-family: 'Pridi', serif;
+    font-size: 1.25em;
+}
+.pridi-n {
+    font-family: 'Pridi', serif;
+}
 .list-group-item:nth-child(odd) {
     background-color: #bdf1ac;
     text-align: right;
