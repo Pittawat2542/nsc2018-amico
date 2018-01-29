@@ -40,8 +40,8 @@ CHATTERBOT = {
         "chatterbot.logic.BestMatch"
     ],
     'training_data': [
-        'chatterbot.corpus.english.greetings'
-        #'ami.traindata.th-TH.cp'
+        #'chatterbot.corpus.english.greetings'
+        'ami.traindata.th-TH.cp'
     ],
     'django_app_name': 'django_chatterbot',
 }
