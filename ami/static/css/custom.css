@@ -1,9 +1,14 @@
-/* Alternate the background color of the output rows */
-.list-group-item:nth-child(even) {
-    background-color: #bdf1ac;
+body {
+    background: #282828
 }
-
+.list-group-item:nth-child(odd) {
+    background-color: #bdf1ac;
+    text-align: right;
+}
+.list-group-item:nth-child(even) {
+    text-align: left;
+}
 .chat-log {
-    max-height:200px;
+    max-height: 80%;
     overflow-y:scroll;
 }
