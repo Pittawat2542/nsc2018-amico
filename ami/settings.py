@@ -34,8 +34,8 @@ INSTALLED_APPS = (
 
 CHATTERBOT = {
     'name': 'Ami',
-    'trainer': 'chatterbot.trainers.ChatterBotCorpusTrainer',
-    #'trainer': 'ami.trainers.newCorpus',
+    #'trainer': 'chatterbot.trainers.ChatterBotCorpusTrainer',
+    'trainer': 'ami.trainers.newCorpus.newCorpusTrainer',
     'logic_adapters' : [
         "chatterbot.logic.BestMatch"
     ],
