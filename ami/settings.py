@@ -36,9 +36,9 @@ CHATTERBOT = {
     'name': 'Ami',
     #'trainer': 'chatterbot.trainers.ChatterBotCorpusTrainer',
     'trainer': 'ami.trainers.newCorpus.newCorpusTrainer',
-    'logic_adapters' : [
-        "chatterbot.logic.BestMatch"
-    ],
+    # 'logic_adapters' : [
+    #     "chatterbot.logic.BestMatch"
+    # ],
     'training_data': [
         #'chatterbot.corpus.english.greetings'
         'ami.traindata.th-TH.cp'
