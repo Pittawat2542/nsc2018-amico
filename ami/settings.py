@@ -42,7 +42,7 @@ CHATTERBOT = {
         'ami.traindata.th-TH.cp'
     ],
     'django_app_name': 'django_chatterbot',
-    'read_only' : True
+    'read_only' : True,
 }
 
 MIDDLEWARE_CLASSES = (
