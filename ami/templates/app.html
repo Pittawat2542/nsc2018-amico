@@ -118,19 +118,18 @@
         });
 
         $submit.fail(function() {
-          // TODO: Handle errors
+          console.log(e);
         });
       }
 
       $sayButton.click(function() {
-        submitInput();
+        if ($input.val() !== '') submitInput();
+        
       });
 
       $input.keydown(function(event) {
         // Submit the input when the enter button is pressed
-        if (event.keyCode == 13) {
-          submitInput();
-        }
+        if (event.keyCode == 13 && $input.val() !== '') submitInput();
       });
     </script>
   </body>
